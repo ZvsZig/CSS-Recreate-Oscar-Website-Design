@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+.top-nav {
+    background-color: black;
+    color: white;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.top-nav li{
+    display: inline;
+    padding: 15px;
+}
+
+.bot-nav {
+    background-image: url(/assets/images/hero.png);
+    background-size: cover;
+    height:  400px;
+    color: white;
+}
+
+.bot-nav ul {
+    list-style-type: none;
+}
+
+.bot-nav li {
+    display: inline;
+    padding: 15px;
+}
+
 main {
     /* outline: 1px solid red; */
     width: 70vw;
@@ -16,6 +47,7 @@ p {
 
 .main-content-card {
     display: flex;
+    margin-top: 50px;
     justify-content: space-between;
 }
 
@@ -49,5 +81,9 @@ p {
     .card-image {
         width: 100%;
         padding: 0;
+    }
+
+    .card-content {
+        order: 1;
     }
 }
